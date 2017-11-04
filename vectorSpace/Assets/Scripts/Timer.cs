@@ -28,20 +28,20 @@ public class Timer : MonoBehaviour {
 		
 		if (Input.anyKey && winCondition) {
 			Debug.Log ("Win Condition: " + winCondition);
-			if(level+1 < numLevels){
+			if(level+2 < numLevels){
 				Debug.Log("went into If");
-				Debug.Log("level plus 1 = " + (level+1) + "   numLevels: " + numLevels);
-				UnityEngine.SceneManagement.SceneManager.LoadScene(level+1); //go to next level
+				Debug.Log("level plus 2 = " + (level+2) + "   numLevels: " + numLevels);
+				UnityEngine.SceneManagement.SceneManager.LoadScene(level+2); //go to next level
 			}else{
 				Debug.Log("went into Else");
-				Debug.Log("level plus 1 = " + (level+1) + "   numLevels: " + numLevels);
+				Debug.Log("level plus 2 = " + (level+2) + "   numLevels: " + numLevels);
 				UnityEngine.SceneManagement.SceneManager.LoadScene(0); //go to Main Menu when no levels are left to be played
 			}
 		}
 			
 		
 		checkIfProjectileSpawned ();
-		if ((Input.GetButtonDown ("Fire1")) || (resetTimer)) {
+		if (((Input.GetButtonDown ("Fire1")) || (resetTimer)) && (Input.mousePosition.y > Screen.height*0.0575)) {
 			startTime = Time.time;
 		}
 

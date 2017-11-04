@@ -1,0 +1,4 @@
+Name,numGameLaunchesCounterQ1,numLevelsPlayedCounterQ2,numPlanetsLaunchedCounterQ3,numHintsToggleCounterQ4
+First!,
+Second!,
+Third?,

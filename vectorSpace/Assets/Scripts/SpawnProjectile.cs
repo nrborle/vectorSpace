@@ -11,7 +11,7 @@ public class SpawnProjectile : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetButtonDown ("Fire1")) {
+		if (Input.GetButtonDown ("Fire1") && (Input.mousePosition.y > Screen.height*0.0575)) {
 			var mousePos = Input.mousePosition;
 			Debug.Log (mousePos.y);
 			if ((mousePos.y > 60)) {

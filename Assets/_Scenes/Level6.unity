@@ -1428,7 +1428,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: In this level, the star is much larger and has very heavy gravity. Imagine
-    you ar elookign down on the same planet you have been launching, but from much
+    you are lookign down on the same planet you have been launching, but from much
     farther away.
 --- !u!222 &929229216
 CanvasRenderer:

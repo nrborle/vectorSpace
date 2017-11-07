@@ -6,9 +6,9 @@ public class starMover : MonoBehaviour {
 
 
 	//adjust this to change speed
-	float speed = 5f;
+	float speed = 3f;
 	//adjust this to change how high it goes
-	float height = 0.5f;
+	float height = 0.3f;
 
 
 	// Use this for initialization

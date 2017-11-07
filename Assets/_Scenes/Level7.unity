@@ -153,7 +153,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 49588273}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.5}
   m_LocalScale: {x: 1.35, y: 1, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -682,8 +682,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55b771f057cfdf84f987eec5252a7af0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xScale: 0.025
-  yScale: 0.025
+  xScale: 0.05
+  yScale: 0.05
   Projectile: {fileID: 1791574753355788, guid: 93d4d38ec62601e42b37470237db4cd5, type: 2}
 --- !u!114 &508320739
 MonoBehaviour:
@@ -708,8 +708,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a104cfa6f6bbcb418ff36991264cd27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 6
-  winSeconds: 15
+  level: 7
+  winSeconds: 10
   timerText: {fileID: 188756848}
   winText: {fileID: 1647547363}
 --- !u!1 &516901554
@@ -1427,9 +1427,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: In this level, the star is much larger and has very heavy gravity. Imagine
-    you ar elookign down on the same planet you have been launching, but from much
-    farther away.
+  m_Text: This star is moving back and forth. Perhaps just the right amount of frce
+    at the right time in the right direction will make this work?
 --- !u!222 &929229216
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1854,7 +1853,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Get the planet in orbit of the star for 15 seconds.
+  m_Text: Get the planet in orbit of the star for 10 seconds.
 --- !u!222 &1456579127
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2010,7 +2009,7 @@ PointEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_ForceMagnitude: -100
+  m_ForceMagnitude: -40
   m_ForceVariation: 0
   m_DistanceScale: 1
   m_ForceSource: 0
@@ -2031,7 +2030,7 @@ CircleCollider2D:
   m_UsedByEffector: 1
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 50
+  m_Radius: 60
 --- !u!212 &1534599503
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2064,7 +2063,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3aee5d80f81f98d4cb2a7533da1982ea, type: 3}
-  m_Color: {r: 0.5588235, g: 0.9452333, b: 1, a: 1}
+  m_Color: {r: 0.47261655, g: 1, b: 0.04411763, a: 1}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!4 &1534599504
@@ -2075,7 +2074,7 @@ Transform:
   m_GameObject: {fileID: 1534599497}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -1}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -2232,9 +2231,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Nice Job! You have completed level 6
+  m_Text: 'Nice Job! You have completed level 7
 
-    Continue to level 7'
+    That''s all the levels for now. Thanks for Playing!'
 --- !u!222 &1647547364
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2420,7 +2419,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: One LARGE Star
+  m_Text: Star Moving up and Down
 --- !u!222 &1736933588
 CanvasRenderer:
   m_ObjectHideFlags: 0

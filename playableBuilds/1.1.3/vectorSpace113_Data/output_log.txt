@@ -24,14 +24,14 @@ Platform assembly: C:\Users\Nick\Documents\Science 4th Year\COSC 442 - Mobile Ed
 <RI> Input initialized.
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 1.304660 ms
+UnloadTime: 1.260323 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1188 -> priority: 1 
+  Thread -> id: 910 -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 5.934603 ms
+UnloadTime: 6.074183 ms
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 403.
-Total: 0.393286 ms (FindLiveObjects: 0.039000 ms CreateObjectMapping: 0.024631 ms MarkObjects: 0.284085 ms  DeleteObjects: 0.044747 ms)
+Total: 0.430234 ms (FindLiveObjects: 0.034073 ms CreateObjectMapping: 0.023810 ms MarkObjects: 0.323907 ms  DeleteObjects: 0.048031 ms)
 
 Data Collection Begins
  
@@ -41,11 +41,15 @@ Number of Levels Read: 8
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-259
+221
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-266
+262
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+302
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -66,14 +70,14 @@ DATA COLLECTION SUCCESS: data collection completed
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Level ending after 16.03949 seconds
+Level ending after 32.77493 seconds
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-UnloadTime: 2.533783 ms
+UnloadTime: 2.748489 ms
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 411.
-Total: 0.486066 ms (FindLiveObjects: 0.040642 ms CreateObjectMapping: 0.028737 ms MarkObjects: 0.402728 ms  DeleteObjects: 0.013136 ms)
+Total: 0.372760 ms (FindLiveObjects: 0.041873 ms CreateObjectMapping: 0.018473 ms MarkObjects: 0.303791 ms  DeleteObjects: 0.008210 ms)
 
 Data Collection Begins
  
@@ -83,15 +87,7 @@ Number of Levels Read: 8
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-124
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-331
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-332
+328
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -112,14 +108,14 @@ DATA COLLECTION SUCCESS: data collection completed
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Level ending after 43.24293 seconds
+Level ending after 68.11774 seconds
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-UnloadTime: 1.688094 ms
+UnloadTime: 1.470513 ms
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 411.
-Total: 0.352644 ms (FindLiveObjects: 0.047210 ms CreateObjectMapping: 0.017242 ms MarkObjects: 0.279159 ms  DeleteObjects: 0.008210 ms)
+Total: 0.524245 ms (FindLiveObjects: 0.046389 ms CreateObjectMapping: 0.033252 ms MarkObjects: 0.431055 ms  DeleteObjects: 0.012726 ms)
 
 Number of Levels Read: 8
  
@@ -129,13 +125,32 @@ Data Collection Begins
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-321
+FormatException: Input string was not in the correct format
+  at System.Int32.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at TextGetX.SubmitName (System.String arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.SendOnSubmit () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.DeactivateInputField () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.OnDeselect (UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IDeselectHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IDeselectHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject(GameObject, BaseEventData)
+UnityEngine.EventSystems.PointerInputModule:DeselectIfSelectionChanged(GameObject, BaseEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-355
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: -1)
 
 Win Condition: True
  
@@ -154,28 +169,20 @@ DATA COLLECTION SUCCESS: data collection completed
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Level ending after 64.12717 seconds
+Level ending after 76.17001 seconds
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-UnloadTime: 1.235281 ms
+UnloadTime: 1.440134 ms
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 419.
-Total: 0.343202 ms (FindLiveObjects: 0.053779 ms CreateObjectMapping: 0.016831 ms MarkObjects: 0.263969 ms  DeleteObjects: 0.007800 ms)
+Total: 0.369475 ms (FindLiveObjects: 0.062810 ms CreateObjectMapping: 0.031610 ms MarkObjects: 0.265612 ms  DeleteObjects: 0.007389 ms)
 
 Data Collection Begins
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Number of Levels Read: 8
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-342
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-347
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -196,28 +203,20 @@ DATA COLLECTION SUCCESS: data collection completed
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Level ending after 80.9575 seconds
+Level ending after 76.78399 seconds
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-UnloadTime: 1.211880 ms
+UnloadTime: 1.580946 ms
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 411.
-Total: 0.352233 ms (FindLiveObjects: 0.049673 ms CreateObjectMapping: 0.016831 ms MarkObjects: 0.276285 ms  DeleteObjects: 0.008621 ms)
+Total: 0.351823 ms (FindLiveObjects: 0.052547 ms CreateObjectMapping: 0.016421 ms MarkObjects: 0.273822 ms  DeleteObjects: 0.008210 ms)
 
 Number of Levels Read: 8
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Data Collection Begins
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-200
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-199
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -238,72 +237,20 @@ DATA COLLECTION SUCCESS: data collection completed
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Level ending after 101.7739 seconds
+Level ending after 77.36484 seconds
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-UnloadTime: 1.395797 ms
+UnloadTime: 1.517314 ms
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 403.
-Total: 0.321033 ms (FindLiveObjects: 0.032021 ms CreateObjectMapping: 0.016831 ms MarkObjects: 0.261506 ms  DeleteObjects: 0.009852 ms)
+Total: 0.335812 ms (FindLiveObjects: 0.044747 ms CreateObjectMapping: 0.018473 ms MarkObjects: 0.262327 ms  DeleteObjects: 0.009442 ms)
 
 Number of Levels Read: 8
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Data Collection Begins
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-259
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-294
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-294
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-294
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-294
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-294
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-294
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-294
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-294
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-294
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-294
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-294
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-295
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -324,52 +271,20 @@ DATA COLLECTION SUCCESS: data collection completed
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Level ending after 133.3849 seconds
+Level ending after 79.59717 seconds
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-UnloadTime: 1.501303 ms
+UnloadTime: 1.372397 ms
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 404.
-Total: 0.360444 ms (FindLiveObjects: 0.053779 ms CreateObjectMapping: 0.017242 ms MarkObjects: 0.279980 ms  DeleteObjects: 0.008210 ms)
+Total: 0.389181 ms (FindLiveObjects: 0.052137 ms CreateObjectMapping: 0.020115 ms MarkObjects: 0.305433 ms  DeleteObjects: 0.010673 ms)
 
 Number of Levels Read: 8
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Data Collection Begins
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-302
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-302
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-302
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-302
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-302
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-302
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-302
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-302
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -390,12 +305,92 @@ DATA COLLECTION SUCCESS: data collection completed
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Level ending after 149.6305 seconds
+Level ending after 80.42673 seconds
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-UnloadTime: 1.416324 ms
+UnloadTime: 1.666746 ms
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 409.
-Total: 0.493045 ms (FindLiveObjects: 0.054189 ms CreateObjectMapping: 0.020526 ms MarkObjects: 0.308307 ms  DeleteObjects: 0.109200 ms)
+Total: 0.498792 ms (FindLiveObjects: 0.049673 ms CreateObjectMapping: 0.021758 ms MarkObjects: 0.316928 ms  DeleteObjects: 0.109611 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.609224 ms
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 403.
+Total: 0.339096 ms (FindLiveObjects: 0.043926 ms CreateObjectMapping: 0.018063 ms MarkObjects: 0.239748 ms  DeleteObjects: 0.036947 ms)
+
+Data Collection Begins
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Number of Levels Read: 8
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+160
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+215
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+539
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Win Condition: True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+went into If
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+level plus 1 = 2   numLevels: 8
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+DATA COLLECTION SUCCESS: data collection completed
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Level ending after 163.5492 seconds
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+UnloadTime: 1.574788 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 411.
+Total: 0.403549 ms (FindLiveObjects: 0.054189 ms CreateObjectMapping: 0.022168 ms MarkObjects: 0.315696 ms  DeleteObjects: 0.010673 ms)
+
+Data Collection Begins
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Number of Levels Read: 8
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+342
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+357
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+350
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DATA COLLECTION SUCCESS: data collection completed
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Application ending after 176.4523 seconds
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 

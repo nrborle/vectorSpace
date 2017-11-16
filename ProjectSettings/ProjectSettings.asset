@@ -6,12 +6,12 @@ PlayerSettings:
   serializedVersion: 10
   productGUID: 8d57203b2c3d1024e8925f98f95a01c0
   AndroidProfiler: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 0
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: Nick Borle
-  productName: Vector Space
+  companyName: NickBorle
+  productName: VectorSpace
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21176471, a: 1}
@@ -119,8 +119,8 @@ PlayerSettings:
     16:10: 0
     16:9: 0
     Others: 1
-  bundleIdentifier: com.Company.ProductName
-  bundleVersion: 1.0
+  bundleIdentifier: com.NickBorle.VectorSpace
+  bundleVersion: 1.13
   preloadedAssets: []
   metroInputSource: 0
   m_HolographicPauseOnTrackingLoss: 1

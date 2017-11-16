@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class starMover : MonoBehaviour {
+public class starMoverSin : MonoBehaviour {
 
 
 	//adjust this to change speed
-	float speed = 3f;
+	float speed = 2.5f;
 	//adjust this to change how high it goes
-	float height = 0.3f;
+	float height = 0.75f;
 
 
 	// Use this for initialization

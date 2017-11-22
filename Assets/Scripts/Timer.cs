@@ -28,7 +28,7 @@ public class Timer : MonoBehaviour {
 		
 		if (Input.anyKey && winCondition) {
 			Debug.Log ("Win Condition: " + winCondition);
-			if(level+1 < numLevels){
+			if(level+1 < numLevels && level+1 != 9){
 				Debug.Log("went into If");
 				Debug.Log("level plus 1 = " + (level+1) + "   numLevels: " + numLevels);
 				UnityEngine.SceneManagement.SceneManager.LoadScene(level+1); //go to next level

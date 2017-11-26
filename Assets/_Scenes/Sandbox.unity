@@ -893,9 +893,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f58a6207c970b543982884a434ca10e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xScale: 0.2
-  yScale: 0.2
-  Prefab: {fileID: 1647463715835134, guid: 3774987c7f457ed468b065b50dd6a5e2, type: 2}
+  xScale: 0.05
+  yScale: 0.05
+  PrefabStar: {fileID: 1647463715835134, guid: 3774987c7f457ed468b065b50dd6a5e2, type: 2}
+  PrefabPlanet: {fileID: 1791574753355788, guid: 93d4d38ec62601e42b37470237db4cd5,
+    type: 2}
+  selectionText: {fileID: 390994617}
   velocityVector: {x: 0, y: 0}
 --- !u!1 &516901554
 GameObject:
@@ -2349,7 +2352,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -754658173
+  randomSeed: -725910112
   InitialModule:
     serializedVersion: 3
     enabled: 1

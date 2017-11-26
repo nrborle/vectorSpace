@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 58252633611596068}
   - component: {fileID: 50460600772228608}
   - component: {fileID: 114964457788007508}
+  - component: {fileID: 114299898302246376}
   m_Layer: 0
   m_Name: Star
   m_TagString: Gravity
@@ -93,6 +94,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 250
+--- !u!114 &114299898302246376
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1647463715835134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8852d96a394ae244c8fbda8e4ba40075, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityVector: {x: 0, y: 0}
 --- !u!114 &114964457788007508
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -1,0 +1,15 @@
+gameTimeSecQ1,numLevelsPlayedCounterQ2,numPlanetsLaunchedCounterQ3,numSecHintsToggledQ4
+17,0,2,0
+-,-,-,-
+1,0,0,0
+-,-,-,-
+17,0,4,0
+17,0,3,0
+4,0,0,0
+-,-,-,-
+24,0,3,0
+19,0,3,0
+18,0,2,0
+21,0,2,0
+12,0,2,0
+13,0,2,0

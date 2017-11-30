@@ -851,7 +851,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xScale: 0.045
   yScale: 0.045
-  Projectile: {fileID: 1791574753355788, guid: 93d4d38ec62601e42b37470237db4cd5, type: 2}
+  Prefab: {fileID: 1791574753355788, guid: 93d4d38ec62601e42b37470237db4cd5, type: 2}
 --- !u!114 &508320739
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -906,6 +906,7 @@ GameObject:
   - component: {fileID: 508320736}
   - component: {fileID: 508320735}
   - component: {fileID: 508320738}
+  - component: {fileID: 508320739}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -972,10 +973,24 @@ MonoBehaviour:
   xScale: 0.05
   yScale: 0.05
   PrefabStar: {fileID: 1647463715835134, guid: 3774987c7f457ed468b065b50dd6a5e2, type: 2}
-  PrefabPlanet: {fileID: 1791574753355788, guid: 93d4d38ec62601e42b37470237db4cd5,
+  PrefabPlanet: {fileID: 1791574753355788, guid: a24a57f18b6ee1949973f5fc368035f7,
     type: 2}
   selectionText: {fileID: 390994617}
   velocityVector: {x: 0, y: 0}
+--- !u!114 &508320739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 508320734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 768ab8c5c77c6414bbff4a46c4e81432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrthographicCamera: {fileID: 1217877792}
+  zoomIn: {fileID: 1440994323}
+  zoomOut: {fileID: 895325393}
 --- !u!1 &516901554
 GameObject:
   m_ObjectHideFlags: 0
@@ -2539,7 +2554,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -1164157253
+  randomSeed: -367259192
   InitialModule:
     serializedVersion: 3
     enabled: 1

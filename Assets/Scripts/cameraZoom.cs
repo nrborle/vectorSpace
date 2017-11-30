@@ -1,17 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class cameraZoom : MonoBehaviour {
 
-	public float zoomSpeed = 300;
-	void Update()
-	{
-		var mouseScroll = Input.GetAxis("Mouse ScrollWheel");
+	public Camera OrthographicCamera;
+	public Button zoomIn;
+	public Button zoomOut;
 
-		if (mouseScroll!=0)
-		{
-			transform.Translate(transform.forward * mouseScroll * zoomSpeed * Time.deltaTime, Space.Self);
-		}
+	void Update(){
+		OrthographicCamera.orthographicSize = 5.0f;
 	}
 }

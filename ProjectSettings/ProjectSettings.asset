@@ -120,7 +120,7 @@ PlayerSettings:
     16:9: 0
     Others: 1
   bundleIdentifier: com.NickBorle.VectorSpace
-  bundleVersion: 1.13
+  bundleVersion: 1.3.6
   preloadedAssets: []
   metroInputSource: 0
   m_HolographicPauseOnTrackingLoss: 1

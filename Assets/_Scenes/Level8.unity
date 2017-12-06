@@ -2475,7 +2475,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Nice Job! You have completed level 8
 
-    That''s all the leels for now. Thanks for playing!'
+    That''s all the levels for now. Thanks for playing!'
 --- !u!222 &1647547364
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -26,6 +26,7 @@ public class Timer : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+		
 		if (Input.anyKey && winCondition) {
 			Debug.Log ("Win Condition: " + winCondition);
 			if(level+1 < numLevels && level+1 != 9){
@@ -46,6 +47,7 @@ public class Timer : MonoBehaviour {
 		}
 
 		float t = Time.time - startTime; //amount of Time since the Timer has started
+		if (resetTimer == true) { startTime = Time.time; }
 		int minutes = ((int) t / 60);
 		string minStr = minutes.ToString();
 		float seconds = (t % 60);
@@ -58,6 +60,7 @@ public class Timer : MonoBehaviour {
 			timerText.text = minStr + " : " + secStr;
 		}
 
+		checkMousePos ();
 
 	}
 
@@ -89,6 +92,14 @@ public class Timer : MonoBehaviour {
 	void executeWin(){
 		winText.enabled = true;
 		winCondition = true;
+	}
+
+	void checkMousePos(){
+		if (Input.mousePosition.y < Screen.height * 0.075) {
+			resetTimer = true;
+		} else {
+			resetTimer = false;
+		}
 	}
 
 

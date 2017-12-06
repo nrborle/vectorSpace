@@ -1376,8 +1376,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -220, y: 325}
-  m_SizeDelta: {x: 300, y: 200}
+  m_AnchoredPosition: {x: -220, y: 168}
+  m_SizeDelta: {x: 300, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &626976738
 MonoBehaviour:
@@ -1411,8 +1411,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Use the white boxes at the bottem of the screen to give values to the X
+  m_Text: 'Use the white boxes at the bottem of the screen to give values to the X
     and Y vectors.
+
+
+    Touch and dragdown on the Menu to open it.'
 --- !u!222 &626976739
 CanvasRenderer:
   m_ObjectHideFlags: 0
